@@ -100,8 +100,8 @@ Please note that this is intended to serve more as a virtual readonly file-syste
 included sample project
 ```sh
     #unpacks an archive to disk (note this cannot make folders as of now, so unpacking fails with subdirectories)
-	ppack (<unpack> <archive.pp>)
-
+    ppack (<unpack> <archive.pp>)
+    
     #packs files into an archive
     ppack (<pack> <archive.pp> <file>... )
 
