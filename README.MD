@@ -46,9 +46,9 @@ Please note that this is intended to serve more as a virtual readonly file-syste
 
     std::cout << "some data with the name: "<< data.path() << std::endl;;
 
-    for(uint8_t : data.get())
+    for(uint8_t d : data.get())
     {
-        std::cout << "got some bytes! " << data <<std::endl;
+        std::cout << "got some bytes! " << d <<std::endl;
     }
 
     //writing ( even simpler :) )
